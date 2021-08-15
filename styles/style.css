@@ -441,6 +441,13 @@ html {
   color: white;
 }
 
+.seccion__modelosHome .seccion__modelosHome--titulo p a {
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
 /* grilla */
 .seccion__modelosHome--grilla {
   display: -ms-grid;
@@ -499,6 +506,26 @@ html {
   transition: 1s;
 }
 
+.seccion__modelosHome__grilla--elemento1 a {
+  text-decoration: none;
+}
+
+.seccion__modelosHome__grilla--elemento1 a h5 {
+  position: relative;
+  color: #0a1612;
+  display: inline-block;
+  top: 80%;
+  left: 50%;
+  background-color: #c5c1c0;
+  padding: 10%;
+  opacity: 0.8;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
 .seccion__modelosHome__grilla--elemento2 {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -510,6 +537,26 @@ html {
   border-radius: 10px;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.seccion__modelosHome__grilla--elemento2 a {
+  text-decoration: none;
+}
+
+.seccion__modelosHome__grilla--elemento2 a h5 {
+  position: relative;
+  color: #0a1612;
+  display: inline-block;
+  top: 80%;
+  left: 50%;
+  background-color: #c5c1c0;
+  padding: 10%;
+  opacity: 0.8;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
 }
 
 .seccion__modelosHome__grilla--elemento3 {
@@ -524,6 +571,26 @@ html {
   transition: 1s;
 }
 
+.seccion__modelosHome__grilla--elemento3 a {
+  text-decoration: none;
+}
+
+.seccion__modelosHome__grilla--elemento3 a h5 {
+  position: relative;
+  color: #0a1612;
+  display: inline-block;
+  top: 80%;
+  left: 50%;
+  background-color: #c5c1c0;
+  padding: 10%;
+  opacity: 0.8;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+}
+
 .seccion__modelosHome__grilla--elemento4 {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
@@ -534,26 +601,47 @@ html {
   border-radius: 10px;
   -webkit-transition: 1s;
   transition: 1s;
+  z-index: 5;
+}
+
+.seccion__modelosHome__grilla--elemento4 a {
+  text-decoration: none;
+}
+
+.seccion__modelosHome__grilla--elemento4 a h5 {
+  position: relative;
+  color: #0a1612;
+  display: inline-block;
+  top: 80%;
+  left: 50%;
+  background-color: #c5c1c0;
+  padding: 10%;
+  opacity: 0.8;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
 }
 
 .seccion__modelosHome__grilla--elemento1:hover {
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 .seccion__modelosHome__grilla--elemento2:hover {
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 .seccion__modelosHome__grilla--elemento3:hover {
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 .seccion__modelosHome__grilla--elemento4:hover {
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 /* -------------------------------------------OBRAS */
@@ -596,7 +684,7 @@ html {
   color: #1a2930;
 }
 
-.seccion__obrasHome div img {
+.seccion__obrasHome div a img {
   width: 100%;
   border-radius: 10px;
 }

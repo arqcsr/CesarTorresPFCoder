@@ -141,6 +141,13 @@ $fontFam2: 'Raleway', sans-serif;
             font-family: $fontFam2;
             font-size: 2rem;
             color:white;
+            a{
+                text-decoration: underline;
+                font-family: $fontFam2;
+                font-size: 2rem;
+                color:white;
+                
+            }
         }
     }
 }
@@ -191,6 +198,23 @@ $fontFam2: 'Raleway', sans-serif;
     background-size: cover;
     border-radius: 10px;
     transition: 1s;
+    a{
+        text-decoration: none;
+        h5{
+            position: relative;
+            color: $color1;
+            display: inline-block;
+            top: 80%;
+            left: 50%;
+            background-color: $color3;
+            padding: 10%;
+            opacity: 0.8;
+            justify-self: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+    }
 }
 .seccion__modelosHome__grilla--elemento2{
     grid-area: pico;
@@ -199,6 +223,23 @@ $fontFam2: 'Raleway', sans-serif;
     background-size: cover;
     border-radius: 10px;
     transition: 1s;
+    a{
+        text-decoration: none;
+        h5{
+            position: relative;
+            color: $color1;
+            display: inline-block;
+            top: 80%;
+            left: 50%;
+            background-color: $color3;
+            padding: 10%;
+            opacity: 0.8;
+            justify-self: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+    }
 }
 .seccion__modelosHome__grilla--elemento3{
     grid-area: pele;
@@ -207,6 +248,23 @@ $fontFam2: 'Raleway', sans-serif;
     background-size: cover;
     border-radius: 10px;
     transition: 1s;
+    a{
+        text-decoration: none;
+        h5{
+            position: relative;
+            color: $color1;
+            display: inline-block;
+            top: 80%;
+            left: 50%;
+            background-color: $color3;
+            padding: 10%;
+            opacity: 0.8;
+            justify-self: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+    }
 }
 .seccion__modelosHome__grilla--elemento4{
     grid-area: montor;
@@ -215,19 +273,37 @@ $fontFam2: 'Raleway', sans-serif;
     background-size: cover;
     border-radius: 10px;
     transition: 1s;
+    z-index: 5;
+    a{
+        text-decoration: none;
+        h5{
+            position: relative;
+            color: $color1;
+            display: inline-block;
+            top: 80%;
+            left: 50%;
+            background-color: $color3;
+            padding: 10%;
+            opacity: 0.8;
+            justify-self: center;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            border-radius: 5px;
+        }
+    }
 }
 
 .seccion__modelosHome__grilla--elemento1:hover{
-transform: scale(1.01,1.01);
+transform: scale(1.03,1.03);
 }
 .seccion__modelosHome__grilla--elemento2:hover{
-transform: scale(1.01,1.01);
+transform: scale(1.03,1.03);
 }
 .seccion__modelosHome__grilla--elemento3:hover{
-transform: scale(1.01,1.01);
+transform: scale(1.03,1.03);
 }
 .seccion__modelosHome__grilla--elemento4:hover{
-transform: scale(1.01,1.01);
+transform: scale(1.03,1.03);
 }
 /* -------------------------------------------OBRAS */
 .seccion__obrasHome{
@@ -258,9 +334,11 @@ transform: scale(1.01,1.01);
         }
     }
     div{
-        img{
-        width: 100%;
-        border-radius: 10px;
+        a{
+            img{
+                width: 100%;
+                border-radius: 10px;
+                }
         }
     }
 }
