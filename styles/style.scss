@@ -33,19 +33,25 @@ html{
         align-items: center;
         justify-items: center;
         transition: 2S;
-        .logoAvHeader{
-            height: 55.8px; width: 90px;
+        a{
+            .logoAvHeader{
+                height: 55.8px; width: 90px;
+            }
         }
-        h1{
-            font-family:$fontFam1;
-            color: white;
-            font-size: 1.9rem;
-            font-weight: 300;
-            text-align: left;
-            margin-left: 10px;
-            padding-left: 10px;
-            border-left: solid 1px white;
+        a{
+            text-decoration: none;
+            h1{
+                font-family:$fontFam1;
+                color: white;
+                font-size: 1.9rem;
+                font-weight: 300;
+                text-align: left;
+                margin-left: 10px;
+                padding-left: 10px;
+                border-left: solid 1px white;
+            }
         }
+        
     }
 }
 
@@ -58,16 +64,21 @@ html{
         padding-left: 5px;
         padding-right: 5px;
         .logoAv{
-            .logoAvHeader{
-                display:none;
+            a{
+                .logoAvHeader{
+                    display:none;
+                }
             }
-            h1{
-                font-size: 1.2rem;
-                font-weight: 500;
-                border: none;
-                padding-left: 0px;
-                margin-left: 0px;
+            a{
+                h1{
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    border: none;
+                    padding-left: 0px;
+                    margin-left: 0px;
+                }
             }
+            
         }
     }
 }
