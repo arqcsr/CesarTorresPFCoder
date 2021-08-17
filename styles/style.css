@@ -442,7 +442,7 @@ html {
 }
 
 .seccion__modelosHome .seccion__modelosHome--titulo p a {
-  text-decoration: underline;
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   color: white;
@@ -516,7 +516,7 @@ html {
   display: inline-block;
   top: 80%;
   left: 50%;
-  background-color: #c5c1c0;
+  background-color: white;
   padding: 10%;
   opacity: 0.8;
   -ms-grid-column-align: center;
@@ -549,7 +549,7 @@ html {
   display: inline-block;
   top: 80%;
   left: 50%;
-  background-color: #c5c1c0;
+  background-color: white;
   padding: 10%;
   opacity: 0.8;
   -ms-grid-column-align: center;
@@ -581,7 +581,7 @@ html {
   display: inline-block;
   top: 80%;
   left: 50%;
-  background-color: #c5c1c0;
+  background-color: white;
   padding: 10%;
   opacity: 0.8;
   -ms-grid-column-align: center;
@@ -614,7 +614,7 @@ html {
   display: inline-block;
   top: 80%;
   left: 50%;
-  background-color: #c5c1c0;
+  background-color: white;
   padding: 10%;
   opacity: 0.8;
   -ms-grid-column-align: center;
@@ -845,4 +845,6 @@ html {
   border-color: #f7ce3e;
   opacity: 1;
 }
+
+/* ------------------SERVICIOS---------------- */
 /*# sourceMappingURL=style.css.map */
