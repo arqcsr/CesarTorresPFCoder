@@ -351,3 +351,18 @@ transform: scale(1.03,1.03);
         }
     }
 }
+
+@media only screen and (max-width: 720px){
+    .seccion__serviciosHome{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .seccion__modelosHome{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .seccion__obrasHome{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
