@@ -1243,4 +1243,141 @@ html {
     padding-right: 5px;
   }
 }
+
+/* ------------------OBRAS---------------- */
+/* -----------VARIABLES------------------- */
+/* -------------------------------------------------------PROYECTOS */
+.imagen--obras img {
+  width: 100%;
+}
+
+.seccion--obrasObras {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #1a2930;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7ce3e;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--parrafo {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  color: #0a1612;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  background-color: white;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 {
+  margin-bottom: 40px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--img {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto {
+  background-color: #1a2930;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto hr {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f7ce3e;
+  opacity: 1;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto a {
+  text-decoration: none;
+  color: #1a2930;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto {
+  background-color: #f7ce3e;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto hr {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1a2930;
+  opacity: 1;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto a {
+  text-decoration: none;
+  color: #1a2930;
+}
+
+@media only screen and (max-width: 720px) {
+  .seccion--casasCasas {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
