@@ -707,12 +707,12 @@ html {
   width: 100%;
 }
 
-.seccion__nosotrosNosotros, .seccion__dondeNosotros {
+.seccion__nosotrosNosotros {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--titulo, .seccion__dondeNosotros .seccion__nosotrosNosotros--titulo, .seccion__dondeNosotros .seccion__dondeNosotros--titulo {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--titulo {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
@@ -734,7 +734,7 @@ html {
   gap: 10px;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--parrafo, .seccion__dondeNosotros .seccion__nosotrosNosotros--parrafo, .seccion__dondeNosotros .container-fluid .row div .seccion__dondeNosotros--parrafo {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--parrafo {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   color: #0a1612;
@@ -751,7 +751,7 @@ html {
   background-color: white;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento, .seccion__dondeNosotros .seccion__nosotrosNosotros--elemento {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -771,7 +771,7 @@ html {
   border-radius: 5px;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento hr, .seccion__dondeNosotros .seccion__nosotrosNosotros--elemento hr {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento hr {
   width: 90%;
   border-style: solid;
   border-width: 1px;
@@ -779,42 +779,66 @@ html {
   opacity: 1;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento h2, .seccion__dondeNosotros .seccion__nosotrosNosotros--elemento h2 {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
 }
 
-.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento p, .seccion__dondeNosotros .seccion__nosotrosNosotros--elemento p {
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
 }
 
-.seccion__dondeNosotros {
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor {
+  margin: 30px;
   margin-bottom: 60px;
-}
-
-.seccion__dondeNosotros .seccion__dondeNosotros--titulo {
+  padding: 40px;
   background-color: #c5c1c0;
-  color: #1a2930;
-}
-
-.seccion__dondeNosotros .container-fluid .row {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.seccion__dondeNosotros .container-fluid .row div .seccion__dondeNosotros--imagen img {
   border-radius: 10px;
-  width: 100%;
-  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  width: auto;
 }
 
-.seccion__dondeNosotros .container-fluid .row div .seccion__dondeNosotros--parrafo {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 0PX;
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor .seccion__dondeNosotros--imagen img {
+  border-radius: 10px;
+  max-width: 400px;
+  height: auto;
+}
+
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor .seccion__dondeNosotros--texto {
+  width: 650px;
+}
+
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor .seccion__dondeNosotros--texto h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor .seccion__dondeNosotros--texto hr {
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f7ce3e;
+  opacity: 1;
+}
+
+.seccion__dondeNosotros .seccion__dondeNosotros--contenedor .seccion__dondeNosotros--texto p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
 }
 
 .seccion__dondeNosotros .iframeNosotrosMaps {
@@ -856,6 +880,13 @@ html {
   border-width: 1px;
   border-color: #f7ce3e;
   opacity: 1;
+}
+
+@media only screen and (max-width: 720px) {
+  .seccion__dondeNosotros .seccion__dondeNosotros--contenedor {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 /* ------------------SERVICIOS---------------- */
@@ -966,8 +997,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1031,6 +1062,13 @@ html {
   background-color: #f7ce3e;
   border-radius: 10px;
   gap: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  .seccion__serviciosServicios .llaveEnMano {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 /* ------------------PROYECTOS---------------- */

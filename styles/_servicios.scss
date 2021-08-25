@@ -78,7 +78,7 @@ $fontFam2: 'Raleway', sans-serif;
         border-radius: 10px;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         gap: 50px;
         width: auto;
@@ -133,4 +133,12 @@ $fontFam2: 'Raleway', sans-serif;
     background-color: $color4;
     border-radius: 10px;
     gap: 10px;
+}
+
+@media only screen and (max-width: 720px){
+    .seccion__serviciosServicios{
+        .llaveEnMano{
+            flex-wrap: wrap;
+        }
+    }
 }
