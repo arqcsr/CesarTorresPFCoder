@@ -610,7 +610,7 @@ html {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: montor;
-  background-image: url(../images/montor.jpg);
+  background-image: url(../images/roraima.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -1258,6 +1258,7 @@ html {
 .seccion--casasCasas .seccion--casasCasas--contenedor1 .seccion--casasCasas--row1 .seccion--casasCasas--row1--texto a {
   text-decoration: none;
   color: #1a2930;
+  display: none;
 }
 
 .seccion--casasCasas .seccion--casasCasas--contenedor1 .seccion--casasCasas--row1 .seccion--casasCasas--row2--texto {
@@ -1290,6 +1291,7 @@ html {
 .seccion--casasCasas .seccion--casasCasas--contenedor1 .seccion--casasCasas--row1 .seccion--casasCasas--row2--texto a {
   text-decoration: none;
   color: #1a2930;
+  display: none;
 }
 
 @media only screen and (max-width: 720px) {
