@@ -379,7 +379,9 @@ html {
   margin: 20px;
   padding: 20px;
   gap: 5px;
-  border-radius: 5px;
+  border-radius: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .seccion__serviciosHome .container-fluid .row div .seccion__serviciosHome--elemento hr {
@@ -404,6 +406,11 @@ html {
 .seccion__serviciosHome .container-fluid .row div .seccion__serviciosHome--elemento p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
+}
+
+.seccion__serviciosHome .container-fluid .row div .seccion__serviciosHome--elemento:hover {
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 /* -------------------------------------------MODELOS DE CASAS */
@@ -733,6 +740,29 @@ html {
   padding-right: 30px;
 }
 
+.seccion__nosotrosNosotros div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seccion__nosotrosNosotros div img {
+  max-height: 25vh;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin: 60px;
+}
+
 .seccion__nosotrosNosotros .seccion__nosotrosNosotros--titulo {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
@@ -789,7 +819,9 @@ html {
   margin: 20px;
   padding: 20px;
   gap: 5px;
-  border-radius: 5px;
+  border-radius: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento hr {
@@ -809,6 +841,11 @@ html {
 .seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
+}
+
+.seccion__nosotrosNosotros .seccion__nosotrosNosotros--elemento:hover {
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
 }
 
 .seccion__dondeNosotros .seccion__dondeNosotros--contenedor {

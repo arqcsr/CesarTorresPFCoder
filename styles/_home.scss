@@ -93,7 +93,8 @@ $fontFam2: 'Raleway', sans-serif;
                     margin: 20px;
                     padding: 20px;
                     gap: 5px;
-                    border-radius: 5px;
+                    border-radius: 20px;
+                    transition: 1s;
                     hr{
                         width: 90%;
                         border-style: solid;
@@ -114,6 +115,18 @@ $fontFam2: 'Raleway', sans-serif;
                         font-family: $fontFam2;
                         font-size: 1.5rem;
                     }
+                }
+            }
+        }
+    }
+}
+
+.seccion__serviciosHome{
+    .container-fluid{
+        .row{
+            div{
+                .seccion__serviciosHome--elemento:hover{
+                    transform: scale(1.03,1.03)
                 }
             }
         }
