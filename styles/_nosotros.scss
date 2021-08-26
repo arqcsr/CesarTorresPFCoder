@@ -129,6 +129,13 @@
 }
 
 @media only screen and (max-width: 720px){
+    .imagen--nosotros{
+        img{
+            width: 100vw;
+            height: 90vh;
+            object-fit: cover;
+        }
+    }
     .seccion__nosotrosNosotros{
         padding-left: 5px;
         padding-right: 5px;

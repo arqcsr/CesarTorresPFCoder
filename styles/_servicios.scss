@@ -137,6 +137,13 @@ $fontFam2: 'Raleway', sans-serif;
 }
 
 @media only screen and (max-width: 720px){
+    .imagen--servicios{
+        img{
+            width: 100vw;
+            height: 90vh;
+            object-fit: cover;
+        }
+    }
     .seccion__serviciosServicios{
         padding-left: 5px;
         padding-right: 5px;
