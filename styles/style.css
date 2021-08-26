@@ -1337,6 +1337,10 @@ html {
   color: white;
 }
 
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto p span {
+  font-weight: 700;
+}
+
 .seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row1--texto a {
   text-decoration: none;
   color: #1a2930;
@@ -1352,7 +1356,7 @@ html {
 .seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto hr {
@@ -1367,6 +1371,10 @@ html {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto p span {
+  font-weight: 900;
 }
 
 .seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto a {

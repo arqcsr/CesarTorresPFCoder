@@ -73,6 +73,9 @@ $fontFam2: 'Raleway', sans-serif;
                     font-size: 1.5rem;
                     font-weight: 500;
                     color: white;
+                    span{
+                        font-weight: 700;
+                    }
                 }
                 a{
                     text-decoration: none;
@@ -87,7 +90,7 @@ $fontFam2: 'Raleway', sans-serif;
                 h4{
                     font-family: $fontFam1;
                     font-size: 2.5rem;
-                    font-weight: 700;
+                    font-weight: 900;
                 }
                 hr{
                     width: 100%;
@@ -100,6 +103,9 @@ $fontFam2: 'Raleway', sans-serif;
                     font-family: $fontFam2;
                     font-size: 1.5rem;
                     font-weight: 500;
+                    span{
+                        font-weight: 900;
+                    }
                 }
                 a{
                     text-decoration: none;
