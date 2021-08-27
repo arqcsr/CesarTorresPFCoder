@@ -65,7 +65,7 @@ html {
 }
 
 .navbar__contenedor--general:hover {
-  background-color: #c5c1c0;
+  background-color: #707070;
 }
 
 @media only screen and (max-width: 576px) {
@@ -480,34 +480,6 @@ html {
           justify-content: baseline;
 }
 
-@media only screen and (max-width: 768px) {
-  .seccion__modelosHome--grilla {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "chocon chocon" "pico pico" "pele montor";
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
-    -ms-grid-rows: 250px 250px 250px;
-        grid-template-rows: 250px 250px 250px;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .seccion__modelosHome--grilla {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "chocon" "pico" "pele" "montor";
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    -ms-grid-rows: 300px 300px 300px 300px;
-        grid-template-rows: 300px 300px 300px 300px;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-  }
-}
-
 .seccion__modelosHome__grilla--elemento1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -708,6 +680,35 @@ html {
   border-radius: 10px;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
+@media only screen and (max-width: 768px) {
+  .seccion__modelosHome--grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "chocon chocon" "pico pico" "pele montor";
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -ms-grid-rows: 250px 250px 250px;
+        grid-template-rows: 250px 250px 250px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .seccion__modelosHome--grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "chocon" "pico" "pele" "montor";
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: 300px 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+}
+
 @media only screen and (max-width: 720px) {
   .seccion__serviciosHome {
     padding-left: 5px;
@@ -723,7 +724,7 @@ html {
   }
   .w-100 {
     width: 100vw;
-    height: 90vh;
+    height: 45vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -940,10 +941,11 @@ html {
   opacity: 1;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
 @media only screen and (max-width: 720px) {
   .imagen--nosotros img {
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1139,10 +1141,11 @@ html {
   gap: 10px;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
 @media only screen and (max-width: 720px) {
   .imagen--servicios img {
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1178,7 +1181,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
-  color: #1a2930;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1190,7 +1193,7 @@ html {
           justify-content: center;
   margin-top: 60px;
   padding: 40px;
-  background-color: #f7ce3e;
+  background-color: #1a2930;
   border-radius: 10px;
   gap: 10px;
 }
@@ -1262,7 +1265,7 @@ html {
 }
 
 .seccion--casasCasas .seccion--casasCasas--contenedor1 .seccion--casasCasas--row1 .seccion--casasCasas--row2--texto {
-  background-color: #f7ce3e;
+  background-color: #c5c1c0;
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px;
@@ -1278,7 +1281,7 @@ html {
   width: 100%;
   border-style: solid;
   border-width: 1px;
-  border-color: #1a2930;
+  border-color: #f7ce3e;
   opacity: 1;
 }
 
@@ -1294,10 +1297,11 @@ html {
   display: none;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
 @media only screen and (max-width: 720px) {
   .imagen--proyectos img {
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1323,7 +1327,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
-  color: #1a2930;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1335,7 +1339,7 @@ html {
           justify-content: center;
   margin-top: 60px;
   padding: 40px;
-  background-color: #f7ce3e;
+  background-color: #1a2930;
   border-radius: 10px;
   gap: 10px;
 }
@@ -1410,7 +1414,7 @@ html {
 }
 
 .seccion--obrasObras .seccion--obrasObras--contenedor1 .seccion--obrasObras--row1 .seccion--obrasObras--row2--texto {
-  background-color: #f7ce3e;
+  background-color: #c5c1c0;
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 20px;
@@ -1426,7 +1430,7 @@ html {
   width: 100%;
   border-style: solid;
   border-width: 1px;
-  border-color: #1a2930;
+  border-color: #f7ce3e;
   opacity: 1;
 }
 
@@ -1445,10 +1449,11 @@ html {
   color: #1a2930;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
 @media only screen and (max-width: 720px) {
   .imagen--obras img {
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1474,7 +1479,7 @@ html {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
-  color: #1a2930;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1486,7 +1491,7 @@ html {
           justify-content: center;
   margin-top: 60px;
   padding: 40px;
-  background-color: #f7ce3e;
+  background-color: #1a2930;
   border-radius: 10px;
   gap: 10px;
 }
@@ -1582,10 +1587,11 @@ html {
   width: 75%;
 }
 
+/* -------------------------------------------MEDIA QUERYS */
 @media only screen and (max-width: 720px) {
   .imagen--presu img {
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     -o-object-fit: cover;
        object-fit: cover;
   }

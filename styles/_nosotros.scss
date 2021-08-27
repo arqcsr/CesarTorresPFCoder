@@ -146,11 +146,13 @@
     }
 }
 
+/* -------------------------------------------MEDIA QUERYS */
+
 @media only screen and (max-width: 720px){
     .imagen--nosotros{
         img{
             width: 100vw;
-            height: 90vh;
+            height: 60vh;
             object-fit: cover;
         }
     }

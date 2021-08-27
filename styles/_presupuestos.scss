@@ -19,13 +19,13 @@ $fontFam2: 'Raleway', sans-serif;
         font-family: $fontFam1;
         font-size: 3.5rem;
         font-weight: 700;
-        color: $color2;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 60px;
         padding: 40px;
-        background-color: $color4;
+        background-color: $color2;
         border-radius: 10px;
         gap: 10px;
     }
@@ -94,11 +94,13 @@ $fontFam2: 'Raleway', sans-serif;
     }
 }
 
+/* -------------------------------------------MEDIA QUERYS */
+
 @media only screen and (max-width: 720px){
     .imagen--presu{
         img{
             width: 100vw;
-            height: 90vh;
+            height: 60vh;
             object-fit: cover;
         }
     }

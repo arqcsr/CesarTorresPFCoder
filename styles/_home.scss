@@ -183,33 +183,7 @@ $fontFam2: 'Raleway', sans-serif;
     width: 100%;
     justify-content: baseline;
 }
-@media only screen and (max-width: 768px){
-    .seccion__modelosHome--grilla{
-        display: grid;
-        grid-template-areas: 
-            "chocon chocon"
-            "pico pico"
-            "pele montor";
-        grid-template-columns:  auto auto;
-        grid-template-rows: 250px 250px 250px;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-    }
-}
-@media only screen and (max-width: 500px){
-    .seccion__modelosHome--grilla{
-        display: grid;
-        grid-template-areas: 
-            "chocon"
-            "pico"
-            "pele"
-            "montor";
-        grid-template-columns:  auto;
-        grid-template-rows: 300px 300px 300px 300px;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-    }
-}
+
 .seccion__modelosHome__grilla--elemento1{
     grid-area: chocon;
     background-image: url(../images/chocon.jpg);
@@ -365,6 +339,36 @@ transform: scale(1.03,1.03);
     }
 }
 
+
+/* -------------------------------------------MEDIA QUERYS */
+
+@media only screen and (max-width: 768px){
+    .seccion__modelosHome--grilla{
+        display: grid;
+        grid-template-areas: 
+            "chocon chocon"
+            "pico pico"
+            "pele montor";
+        grid-template-columns:  auto auto;
+        grid-template-rows: 250px 250px 250px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .seccion__modelosHome--grilla{
+        display: grid;
+        grid-template-areas: 
+            "chocon"
+            "pico"
+            "pele"
+            "montor";
+        grid-template-columns:  auto;
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
 @media only screen and (max-width: 720px){
     .seccion__serviciosHome{
         padding-left: 5px;
@@ -380,7 +384,7 @@ transform: scale(1.03,1.03);
     }
     .w-100{
         width: 100vw;
-        height: 90vh;
+        height: 45vh;
         object-fit: cover;
     }
 }

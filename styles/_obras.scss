@@ -19,13 +19,13 @@ $fontFam2: 'Raleway', sans-serif;
         font-family: $fontFam1;
         font-size: 3.5rem;
         font-weight: 700;
-        color: $color2;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 60px;
         padding: 40px;
-        background-color: $color4;
+        background-color: $color2;
         border-radius: 10px;
         gap: 10px;
     }
@@ -83,7 +83,7 @@ $fontFam2: 'Raleway', sans-serif;
                 }
             }
             .seccion--obrasObras--row2--texto{
-                background-color: $color4;
+                background-color: $color3;
                 border-radius: 20px;
                 padding: 20px;
                 margin-bottom: 20px;
@@ -96,7 +96,7 @@ $fontFam2: 'Raleway', sans-serif;
                     width: 100%;
                     border-style: solid;
                     border-width: 1px;
-                    border-color: $color2;
+                    border-color: $color4;
                     opacity: 1;
                 }
                 p{
@@ -116,11 +116,13 @@ $fontFam2: 'Raleway', sans-serif;
     }
 }
 
+/* -------------------------------------------MEDIA QUERYS */
+
 @media only screen and (max-width: 720px){
     .imagen--obras{
         img{
             width: 100vw;
-            height: 90vh;
+            height: 60vh;
             object-fit: cover;
         }
     }
